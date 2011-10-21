@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* SuperStretch! - Experimental Fluid Layout Stylesheet - v.0.0.5 */
+/* 2010 MightyMeta www.mightymeta.co.uk */
+/* Licensed under the MIT License: http://www.opensource.org/licenses/mit-license.php */
+
+/* Browser Resets */
+ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, body, html, p, blockquote, fieldset, input { margin:0; padding:0 }
+h1, h2, h3, h4, h5, h6, pre, code { font-size:100%; }
+html, body { height: 100%; overflow: hidden; }
+
+/* Main HTML element styles */
+
+html, body {
+	min-height:600px;
+}
+#head_section {
+        position: absolute;
+        top: 0px;
+        width:100%;
+        height:50px;
+        line-height:50px;
+        background-color: rgba(0,0,0,0.5);
+}
+#foot_section {
+        position: absolute;
+        bottom: 0px;
+        width:100%;
+        height:50px;
+        line-height:50px;
+        background-color:rgba(0,0,0,0.5);
+}
+#side {
+        position: absolute;
+        top:50px;
+	bottom:50px;
+	left:0px;
+        overflow: hidden;
+        width: 300px;
+	height:auto;
+        overflow: auto;
+        background-color:blue;
+}
+#main {
+	position: absolute;
+        top:50px;
+	bottom:50px;
+	left:300px;
+	right:0px;
+	height: auto;
+	width: auto;
+        overflow: hidden;
+        background-color: rgba(100,200,200, 0.5);
+}
+#top_bar {
+	position: absolute;
+	top:0px;
+	left:0;
+	right:0;	
+	height:50px;
+	line-height:50px;
+        background-color: rgba(100,100,100, 0.5);
+}
+#bottom_bar {	
+	position: absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	height:50px;
+	line-height:50px;
+        background-color: rgba(100,200,100, 0.5);
+        bottom:0px;
+}
+#main_main {
+        background-color: rgba(250,250,100, 0.5);
+	position: absolute;
+	top: 50px;
+	bottom: 50px;
+	overflow: auto;
+	height: auto;
+	width: auto;	
+}
+.main_container {
+	background-color:white;
+	height: 1200px;
+	
+}
