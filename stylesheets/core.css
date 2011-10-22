@@ -97,6 +97,10 @@ body {
 .main_container p {
 	margin:20px;
 }
+#side div {
+	padding-left:20px;
+	padding-right:20px;	
+}
 .toolbar {
 	height:50px;
 	line-height:50px;
@@ -104,4 +108,7 @@ body {
 	padding-left:20px;
 	padding-right:20px;
 	background-color:#F5F5F5;
+}
+#search {
+	
 }

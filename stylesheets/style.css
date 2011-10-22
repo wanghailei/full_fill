@@ -1,0 +1,38 @@
+@charset "UTF-8";
+body {
+	scrollbar-face-color:#EBF5FF;
+	scrollbar-base-color:#EBF5FF;
+	scrollbar-arrow-color:black;
+	scrollbar-track-color:#F3F3F3;
+	scrollbar-shadow-color:#EBF5FF;
+	scrollbar-highlight-color:#EBF5FF;
+	scrollbar-3dlight-color:#78AAFF;
+	scrollbar-darkshadow-Color:#78AAFF;
+}
+
+.simple_scrollbar::-webkit-scrollbar {
+	height: 16px;
+	overflow: visible;
+	width: 16px;
+}
+.simple_scrollbar::-webkit-scrollbar-thumb {
+	background-color: rgba(0, 0, 0, .2);
+	background-clip: padding-box;
+	border: solid transparent;
+	min-height: 28px;
+	padding: 100px 0 0;
+	box-shadow: inset 1px 1px 0 rgba(0,0,0,.1),inset 0 -1px 0 rgba(0,0,0,.07);
+	border-width: 0 0 0 7px;
+}
+.simple_scrollbar::-webkit-scrollbar-button {
+	height: 0;
+	width: 0;
+}
+.simple_scrollbar::-webkit-scrollbar-track {
+	background-clip: padding-box;
+	border: solid transparent;
+	border-width: 0 0 0 7px;
+}
+.simple_scrollbar::-webkit-scrollbar-corner {
+	background: transparent;
+}
