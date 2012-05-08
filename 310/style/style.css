@@ -1,0 +1,93 @@
+/* Icon positions ////////////////////////////// */
+
+/* Head ////////// */
+.search .icon {
+	background-position: -240px 0px;
+}
+.search:hover .icon {
+	background-position: -240px -40px;
+}
+.activity .icon {
+	background-position: 0px 0px;
+}
+.activity:hover .icon {
+	background-position: 0px -40px;
+}
+.collection .icon {
+	background-position: -880px 0px;
+}
+.setting .icon {
+	background-position: -40px 0px;	
+}
+.setting:hover .icon {
+	background-position: -40px -40px;	
+}
+
+/* Wall ////////// */
+.section .head .icon {
+	background-position: -40px 0px;
+}
+.section .head .icon:hover {
+	background-position: -80px -40px;
+}
+.arrow-prev .icon {
+	background-position: -40px -80px;
+}
+.arrow-next .icon {
+	background-position: 0px -80px;
+}
+.arrow-prev:hover .icon {
+	background-position: 0px -120px;
+}
+.arrow-next:hover .icon {
+	background-position: -40px -120px;
+}
+
+/* Profile ////////// */
+.account .icon {
+	background-position: -640px -40px;
+}
+.medal .icon {
+	background-position: -360px -40px;
+}
+.award .icon {
+	background-position: -400px -40px;
+}
+.fame .icon {
+	background-position: -440px -40px;
+}
+
+/* Document ////////// */
+.prev .icon {
+	background-position: -40px -80px;	
+}
+.next .icon {
+	background-position: 0px -80px;
+}
+.close .icon {
+	background-position: -440px -80px;
+}
+.action .cancel .icon {
+	background-position: -440px -80px;
+}
+.action .want .icon {
+	background-position: -480px -80px;
+}
+.action .want .icon {
+	background-position: -480px -80px;
+}
+.action .wanted .icon {
+	background-position: -480px -120px;
+}
+.action .have .icon {
+	background-position: -520px -80px;
+}
+.action .had .icon {
+	background-position: -520px -120px;
+}
+.action .tagging .icon {
+	background-position: -80px 0px;	
+}
+.opinion .icon {
+	background-position: -160px 0px;	
+}

@@ -1,0 +1,300 @@
+@charset "UTF-8";
+
+#app {
+	position:fixed;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	height:100%;
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+#head {
+        position:absolute;
+        top: 0;
+	left:0;
+	right:0;
+        height:40px;
+}
+#foot {
+        position:absolute;
+        bottom:0;
+	left:0;
+	right:0;
+        height:40px;
+}
+#wall {
+	position:absolute;
+	left:0;
+	right:0;
+	top:40px;
+	bottom:40px;
+}
+#head-container {
+	position:absolute;
+	left:40px;
+	right:0;
+	top:0;
+	bottom:0;
+	height:40px;
+	line-height:40px;
+	background-color:#000000;
+}
+#head-container > div {
+	background-color:#003366;
+	color:#F5F5F5;
+	height:40px;
+}
+#head-container > div > a {
+	height:40px;
+	line-height:40px;
+	color:#EEEEEE;
+}
+#head-container > div > a:hover {
+	color:#FFFFFF;
+}
+#head-logo {
+	position:absolute;
+	left:0;
+	top:0;
+	width:200px;
+}
+#head-search {
+	position:absolute;
+	left:200px;
+	top:0;
+	width:40px;
+}
+#head-filter {
+	position:absolute;
+	left:280px;
+	top:0;
+	width:80px;
+}
+#head-activity {
+	position:absolute;
+	right:160px;
+	top:0;
+	width:120px;
+}
+#head-login {
+	position:absolute;
+	right:40px;
+	top:0;
+	width:80px;
+}
+#head-setting {
+	position:absolute;
+	right:0;
+	top:0;
+	width:40px;
+	text-align:center;
+}
+#foot-container {
+	position:absolute;
+	left:40px;
+	right:0;
+	top:0;
+	bottom:0;
+	height:40px;
+}
+#foot-notification {
+	position:absolute;
+	left:0px;
+	right:240px;
+	top:0;
+	bottom:0;
+	height:40px;
+	line-height:40px;
+	background-color:#FF0033;
+}
+#foot-copyright {
+	position:absolute;
+	right:40px;
+	top:0;
+	bottom:0;
+	width:200px;
+	height:40px;
+	line-height:40px;
+	background-color: #F5F5F5;
+	text-align:right;
+}
+#wall-container {
+	position:absolute;
+	left:40px;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	height:100%;
+	background-color:#F8F8F8;
+}
+#wall-content {
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:40px;
+	background-color:#F8F8F8;	
+}
+.section {
+	position:absolute;
+	top:0;
+	min-width:260px;
+	background-color: green;
+}
+#section-1 {
+	left:0;
+}
+#section-2 {
+	left:550px;
+}
+.section-head {
+	position:absolute;
+	display:table-row;
+	top:0;
+	left:0;
+	right:0;
+	height:40px;
+}
+.section-title {
+	display:table-cell;
+	height:40px;
+	line-height:40px;
+}
+.section-toggle {
+	display:table-cell;	
+	width:40px;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	cursor:pointer;
+}
+.section-body {
+	position:absolute;
+	top:40px;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:red;
+}
+.tile {
+	position:relative;
+	width:260px;
+	height:260px;
+}
+.tile-content {
+	position:absolute;
+	top:0;
+	left:0;
+	width:250px;
+	height:250px;
+	background-color: #EEEEEE;
+}
+#tile-3 {
+	position:absolute;
+	top:0;
+	left:260px;
+}
+#wall-navigator {
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	height:40px;
+	background-color:#F8F8F8;	
+}
+#wall-navigator:hover {
+	background-color:#F5F5F5;	
+}
+#wall-scrollbar {
+	position:absolute;
+	left:0;
+	right:81px;
+	top:0;
+	height:40px;
+}
+#wall-scrollbar-track {
+	position:absolute;
+	left:0;
+	right:0px;
+	top:15px;
+	height:10px;
+	background-color:#EEEEEE;	
+}
+#wall-scrollbar-handle {
+	width:100px;
+	background-color: #DDDDDD;
+	height:10px;
+}
+#wall-arrows {
+	position:absolute;
+	right:0;
+	top:0;
+	height:40px;
+	width:80px;
+}
+#mask {
+	position:absolute;
+	z-index:10;
+	top:0px;
+	bottom:0px;
+	left:0px;
+	right:0px;
+	background-color: rgba(0,0,0,0.7);
+}
+#deck {
+	position:absolute;
+	z-index:10;
+	top:40px;
+	bottom:40px;
+	left:40px;
+	right:40px;
+	background-color: #FFFFFF;
+}
+#main {
+}
+#side {
+	position:absolute;
+	top:0px;
+	bottom:0px;
+	right:0px;
+	width:360px;
+	height:100%;
+	background-color: yellow;
+}
+#side_head {
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	height:40px;
+	background-color:orange;
+}
+
+#arrow-prev,
+#arrow-next {
+	position:absolute;
+	top:15px;
+	width:40px;
+	height:10px;
+	line-height:10px;
+	text-align:center;
+	background-color:#EEEEEE;
+}
+#arrow-prev:hover,
+#arrow-next:hover {
+	position:absolute;
+	top:0;
+	height:40px;
+	line-height:40px;
+	cursor:pointer;
+}
+#arrow-prev {
+	right:0;
+}
+#arrow-next {
+	left:0;
+}
